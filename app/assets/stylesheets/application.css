@@ -1,5 +1,59 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+
+.answer_container {
+  display: flex;
+  margin: 10 auto;
+  width: 50vh;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+input {
+  display: flex;
+}
+
+.form-control {
+  width: 350px;
+  position: absolute;
+  align-items: center;
+}
+
+.btn-primary {
+  position: absolute;
+  margin-left: 380px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.question_container {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.answer {
+  background-color: rgba(150, 150, 150, 0.3);
+  padding: 10px;
+}
+
+.question {
+
+}
+
+h1 {
+  text-align : center;
+}
+
+a {
+  color: white;
+  padding: 10px 20px;
+}
+
+/* * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
